@@ -1,7 +1,7 @@
-#McServerBot
+# McServerBot
 Get information about a Minecraft server in Discord!
 
-##Features
+## Features
 **Set a Minecraft server you want information from.**
 Get always the information about the server that you have set in the settings file.
 Simply type `[prefix] serverstatus` to get the information about the server that you have specified.
@@ -15,7 +15,7 @@ When you run the jar file, the bot will ask you some questions such as your Disc
 
 **Made the Discord bot with JDA and https://minecraft-api.com/ to get the Minecraft server information.**
 
-##Contributing
+## Contributing
 If you want to change or add something, you can always create a pull request. If you find a error, you can always open a Issue. 
 
 
