@@ -49,8 +49,14 @@ public class EmbedCreator {
                     if (mcServer.getPlayers().size() != 1) {
                         //Check if the ArrayList is not at its last value.
                         if (i != mcServer.getPlayers().size() - 1) {
-                            //Add the name of the player to playerMessage and add a comma.
-                            playerMessage += mcServer.getPlayers().get(i) + ", ";
+                            //Check if there is one player behind the last player. If there is a player, don't add a comma at the end.
+                            if(i != mcServer.getPlayers().size() - 2){
+                                //Add the name of the player to playerMessage and add a comma.
+                                playerMessage += mcServer.getPlayers().get(i) + ", ";
+                            }else{
+                                //Add the name of the player to playerMessage without the comma.
+                                playerMessage += mcServer.getPlayers().get(i) + " ";
+                            }
                         } else {
                             //When the ArrayList is at his last value, add 'and' before his name and add a dot at the end.
                             playerMessage += "and " + mcServer.getPlayers().get(i) + ".";
