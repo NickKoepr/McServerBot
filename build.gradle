@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+group 'nl.nickkoepr.mcserverbot'
+version '1.0'
+
+mainClassName = "nl.nickkoepr.mcserverbot.McServerBot"
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://m2.dv8tion.net/releases"
+    }
+}
+
+dependencies {
+    implementation("net.dv8tion:JDA:4.3.0_277")
+    implementation group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+}
