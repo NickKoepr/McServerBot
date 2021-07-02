@@ -6,7 +6,7 @@ Get information about a Minecraft server in Discord!
 ## Features
 ### **Set a Minecraft server you want information from.**
 Get the information about the server that you have specified.
-Simply type `[prefix] serverstatus` to get the information about the server.
+Simply type `[prefix]serverstatus` to get the information about the server.
 
 ### **Get the server information in a embed in Discord.**
 Including server ip, server version, player count and the names of the online players.
