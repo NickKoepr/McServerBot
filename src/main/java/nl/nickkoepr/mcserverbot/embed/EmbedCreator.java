@@ -73,7 +73,7 @@ public class EmbedCreator {
                         if ((mcServer.getPlayers().size() - maxPlayers) != 1) {
                             playerMessage += " and " + (mcServer.getPlayers().size() - maxPlayers) + " more players.";
                         } else {
-                            playerMessage += " *and " + (mcServer.getPlayers().size() - maxPlayers) + " more player.";
+                            playerMessage += " and " + (mcServer.getPlayers().size() - maxPlayers) + " more player.";
                         }
                     }
                 }
