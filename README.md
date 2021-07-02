@@ -15,7 +15,7 @@ Including server ip, server version, player count and the names of the online pl
 When you run the jar file, the bot will ask you some questions such as your Discord bot token, your server ip, your server port, the prefix that you want to use and the number of players you want to show if someone uses the command. 
 
 
-**Made the Discord bot with JDA and https://minecraft-api.com/ to get the Minecraft server information.**
+**Made the Discord bot with JDA and used https://minecraft-api.com/ to get the Minecraft server information.**
 
 ## Contributing
 If you want to change or add something, you can always create a pull request. If you find a error, you can always create a Issue.
