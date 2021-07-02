@@ -48,9 +48,9 @@ public class EmbedCreator {
                     //Check if there is only one player online. If there is online player online, add only that player to the embed with a dot at the end.
                     if (mcServer.getPlayers().size() != 1) {
                         //Check if the ArrayList is not at its last value.
-                        if (i != mcServer.getPlayers().size() - 1) {
-                            //Check if there is one player behind the last player. If there is a player, don't add a comma at the end.
-                            if(i != mcServer.getPlayers().size() - 2){
+                        if (i != mcServer.getPlayers().size() - 1 ) {
+                            //Check if there is one player behind the last player for the player size and max players. If there is a player, don't add a comma at the end.
+                            if(i != mcServer.getPlayers().size() - 2 && i != maxPlayers - 1){
                                 //Add the name of the player to playerMessage and add a comma.
                                 playerMessage += mcServer.getPlayers().get(i) + ", ";
                             }else{
@@ -71,9 +71,9 @@ public class EmbedCreator {
                     if (maxPlayers < mcServer.getPlayers().size()) {
                         //Check if there is only one player left. If so, add player and not players to the message.
                         if ((mcServer.getPlayers().size() - maxPlayers) != 1) {
-                            playerMessage += " *and " + (mcServer.getPlayers().size() - maxPlayers) + " more players.*";
+                            playerMessage += " and " + (mcServer.getPlayers().size() - maxPlayers) + " more players.";
                         } else {
-                            playerMessage += " *and " + (mcServer.getPlayers().size() - maxPlayers) + " more player.*";
+                            playerMessage += " *and " + (mcServer.getPlayers().size() - maxPlayers) + " more player.";
                         }
                     }
                 }
