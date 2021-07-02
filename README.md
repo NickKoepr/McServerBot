@@ -21,7 +21,7 @@ If you want to change or add something, you can always create a pull request. If
 
 **Made the Discord bot with JDA and used https://minecraft-api.com/ to get the Minecraft server information.**
 
-There is a chance that some elements will not work properly. The API cannot get the player names from a bungeecord server for example!
+There is a chance that some elements will not work properly. The API cannot get the player names from a bungeecord server as example!
 
 You can use the bot, but the main purpose for me is to learn more about Java and making Discord bots with JDA by making this project :)
 
