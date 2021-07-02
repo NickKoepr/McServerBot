@@ -9,6 +9,8 @@ version '1.0'
 
 mainClassName = "nl.nickkoepr.mcserverbot.McServerBot"
 
+sourceCompatibility = 16;
+
 repositories {
     mavenCentral()
     maven {
